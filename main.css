@@ -1,1 +1,7 @@
-@import './css/header.css'
+@import './css/header.css';
+@import '/css/about.css';
+@import '/css/contacts.css';
+@import '/css/footer.css';
+@import '/css/learn.css';
+@import '/css/portfolio.css';
+@import '/css/skills.css';
