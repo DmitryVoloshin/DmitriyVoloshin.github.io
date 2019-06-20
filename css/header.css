@@ -1,5 +1,9 @@
 .header{
     width: 100%;
-    height: 78px;
-    background-color: rgb(42, 41, 44);
+    height: 600px;
+    text-align: center;
+}
+.header-nav_block{
+    height: 57px;
+    background-color: #413d41;
 }
