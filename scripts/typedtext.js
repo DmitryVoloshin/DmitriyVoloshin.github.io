@@ -4,8 +4,11 @@
                 "jsut for test", 
                 "some text for test"
               ],
-            typeSpeed: 60,
+            typeSpeed: 70,
             backSpeed: 90,
+            backDelay: 2500,
+            loop:true,
+            showCursor:true
           });
           
           
