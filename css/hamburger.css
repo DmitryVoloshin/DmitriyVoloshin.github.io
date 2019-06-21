@@ -11,6 +11,30 @@
 .navbar-hamburger_pulldown{
     position: relative;
 }
+/* changed cursor if need
 .navbar-hamburger_pulldown .hamburger-pulldown_toggle{
-    
+    cursor: pointer;
+} */
+
+.navbar-hamburger_pulldown .pulldown-toggle_round{
+    height: 38px;
+    width: 38px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background-color: none;
 }
+.navbar-hamburger_pulldown .hamburger-pulldown_menu{
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    width: 150px;
+    border-radius: 4px;
+    display: none;
+    z-index: 2;
+}
+.pulldown-right .hamburger-pulldown_menu{
+    left: auto;
+    right: 0px;
+}
+
+
