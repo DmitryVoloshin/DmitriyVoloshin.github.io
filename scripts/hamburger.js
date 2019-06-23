@@ -1,29 +1,22 @@
-// Hamburger
-// link to last opend menu
+// NAVIGATION HAMBURGER
 let $lastOpened = false;
-// Remove class open
+//  close the last opened menu 
 $(document).click(()=>{
-    if($lastOpened){
-        $lastOpened.removeClass('open')
-    }
+  if($lastOpened){
+    $lastOpened.removeClass('open');
+  }
 });
-//
-$(document).on('click','.hamburger-pulldown_toogle',(event)=>{
-
-    let el = $(event.currentTarget);
-
-    event.preventDefault();
-    event.stopPropagation();
-
-
-    if(el.hasClass('open')){
-        el.removeClass('open');
-    }else{
-        if($lastOpened){
-            $lastOpened.removeClass('open')
-        }
-        el.addClass('open');
-        $lastOpened = el
+$(document).on('click', '.hamburger-pulldown_toggle', (event)=>{
+  let el = $(event.currentTarget);
+  event.preventDefault();
+  event.stopPropagation();
+  if(el.hasClass('open')){
+    el.removeClass('open');
+  }else{
+    if($lastOpened){
+      $lastOpened.removeClass('open');
     }
-
+    el.addClass('open');
+    $lastOpened = el;
+  }
 });

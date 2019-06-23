@@ -1,6 +1,2 @@
-@import  url("./header.css");
-@import url("./hamburger.css");
+@import url('./hamburger.css');
 
-body{
-    background-color: grey;
-}
