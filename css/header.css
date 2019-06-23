@@ -1,27 +1,42 @@
 .header{
     width: 100%;
-    height: 800px;
+    height: 700px;
     background: url('../img/codes.jpg') no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 .short-info_block{
+    /* height: 200px; */
     text-align: center;
     color: white;
     font-size: 22px;
-    margin-top: 25px;
+    margin-top: 17%;
 }
 .short-info_name{
     font-size: 1.5em;
 }
-
+.short-info_frontend{
+    font-size: 1.2em
+}
 @media (max-width: 1280px){
     .header{
        background-size: 100%;
-       height: 800px;
     }
+    .short-info_block{
+     }
 }
-@media (max-width: 968px){
+@media(max-width:1024px){
     .header{
-       
+        height: 500px;
     }
 }
+@media(max-width:768px){
+    .header{
+        height: 450px;
+    }
+}
+@media(max-width:375px){
+    .header{
+       height: 225px;
+    }
+}
+
