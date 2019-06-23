@@ -6,6 +6,7 @@
   position: absolute;
   z-index: 1
 }
+/* position of cirlce */
 .navbar-hamburger_pulldown{
   margin: 20px 20px;
   width: 38px;
@@ -25,76 +26,78 @@
 /* Font for menu */
 .hamburger-pulldown_menu ul li a{
   font-family: sans-serif;
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 100;
   display: block;
-  height: 35px;
-  padding: 0 7px;
-  line-height: 34px;
-  color: grey;
+  height: 50px; /* *2  (35) */
+  padding: 0 14px;
+  line-height: 54px; /* 34*/
+  color: #fff;
   text-decoration: none;
 }
 .hamburger-pulldown_menu ul li a:hover{
-  border-left: 1px solid grey;
+  border-left: 1px solid #fff;
   padding: 0 6px;
 }
 .pulldown-toggle_round{
   position: relative;
 }
+/*  now we draw 3 lines  lines_befor_after*/
 .pulldown-toggle_round .navbar-hamburger_lines{
   position: absolute;
-  top: 18px;
-  left: 8px;
+  top: 36px; 
+  left: 16px;
   display: inline-block;
-  width: 20px;
-  height: 2px;
-  background: rgb(73, 70, 70);
+  width: 40px;
+  height: 4px;
+  background: #fff;
   border-radius: 1px;
   transition: all 200ms;
 }
 .pulldown-toggle_round .navbar-hamburger_lines::before{
   position: absolute;
-  top: -6px;
+  top: -12px;
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 2px;
-  background: rgb(71, 67, 67);
+  width: 40px;
+  height: 4px;
+  background: #fff;
   border-radius: 1px;
   transform-origin: 50% 50%;
   transition: all 200ms;
 }
 .pulldown-toggle_round .navbar-hamburger_lines::after{
   position: absolute;
-  top: 6px;
+  top: 12px;  /* all *2  */
   content: '';
   display: inline-block;
-  width: 20px;
-  height: 2px;
-  background: rgb(75, 65, 65);
+  width: 40px;
+  height: 4px;
+  background: #fff;
   border-radius: 1px;
   transform-origin: 50% 50%;
   transition: all 200ms;
 }
+/* end of drawing lines*/
 .navbar-hamburger_pulldown .hamburger-pulldown_toggle{
   cursor: pointer;
 }
 .navbar-hamburger_pulldown .pulldown-toggle_round{
-  height: 38px;
-  width: 38px;
-  border: 1px solid grey;
+  height: 76px;  /*38*/
+  width: 76px;
+  border: 1px solid #fff;
   border-radius: 50%;
   cursor: pointer;
   background-color: none;
 }
 .navbar-hamburger_pulldown .pulldown-toggle_round:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: grey;
   transition: all 200ms;
 }
 .navbar-hamburger_pulldown .hamburger-pulldown_menu{
   position: absolute;
-  top: 46px;
-  left: 0px; 
+  top: 92px; /* all * 2*/
+  left: 10px; 
   width: 150px;
   border-radius: 4px;
   display: none;
