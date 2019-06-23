@@ -1,7 +1,7 @@
 .header{
     width: 100%;
     height: 700px;
-    background: url('../img/codes.jpg') no-repeat;
+    background: url('../img/codes.jpg') center top no-repeat;
     background-size: 100%;
 }
 .short-info_block{
@@ -10,33 +10,36 @@
     color: white;
     font-size: 22px;
     margin-top: 17%;
+    margin-bottom: 50px
 }
 .short-info_name{
-    font-size: 1.5em;
+    font-size: 1.6em;
 }
 .short-info_frontend{
+    font-size: 1.4em
+}
+.type{
     font-size: 1.2em
 }
+/* Icons CSS*/
+.short-info_icons{
+    padding-top: 30px;
+    margin-top: 20px;
+}
+img{
+    padding: 20px 
+}
+/* MEDIAS */
 @media (max-width: 1280px){
-    .header{
-       background-size: 100%;
-    }
-    .short-info_block{
-     }
+  
 }
 @media(max-width:1024px){
-    .header{
-        height: 500px;
-    }
+   
 }
 @media(max-width:768px){
-    .header{
-        height: 450px;
-    }
+ 
 }
 @media(max-width:375px){
-    .header{
-       height: 225px;
-    }
+    
 }
 
