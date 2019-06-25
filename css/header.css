@@ -13,13 +13,14 @@
     margin-bottom: 50px
 }
 .short-info_name{
-    font-size: 1.6em;
+    font-size: 1.8em;
 }
 .short-info_frontend{
-    font-size: 1.4em
+    font-size: 1.6em
 }
 .type{
-    font-size: 1.2em
+    font-size: 1.4em;
+    color: red
 }
 /* Icons CSS*/
 .short-info_icons{
@@ -34,12 +35,24 @@ img{
   
 }
 @media(max-width:1024px){
-   
+
 }
 @media(max-width:768px){
  
 }
 @media(max-width:375px){
-    
+
+}
+
+@media(max-width:415px){
+    .short-info_name{
+        font-size: 1.2em;
+    }
+    .short-info_frontend{
+        font-size: 0.6em
+    }
+    .type{
+        font-size: 0.4em
+    }
 }
 
