@@ -1,0 +1,33 @@
+.header-wrap{
+    background: url('../../img/codes.jpg') center top no-repeat rgb(6, 15, 24);
+    background-size: cover;
+}
+.short-info_block{
+   margin-top: 20%;
+   padding-bottom: 18%;
+}
+.short-info_block{
+   text-align: center;
+}
+.short-info_name{
+    color: #fff;
+    font-size: 80px;
+    line-height: 90px;
+    /* text-align: center; */
+    font-weight: normal;
+}
+.type{
+    font-size: 60px;
+    line-height: 70px;
+    color: aqua;
+    padding-top: 40px
+}
+.short-info_icons{
+    padding: 40px 20px 20px 20px
+}
+.head-socials_icons{
+    padding-left: 10px;
+}
+.head-socials_icons:first-child{
+    padding-left: 0px;
+}

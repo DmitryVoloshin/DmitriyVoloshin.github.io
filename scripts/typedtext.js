@@ -1,8 +1,9 @@
 
         let typed = new Typed(".type", {
             strings: [
-                "jsut for test", 
-                "some text for test"
+                "In Ctrl + S we Trust", 
+                "Landing Page",
+                "Photoshop"
               ],
             typeSpeed: 70,
             backSpeed: 90,
