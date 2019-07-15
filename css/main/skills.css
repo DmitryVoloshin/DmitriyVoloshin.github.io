@@ -1,25 +1,30 @@
 .main-section_title{
     text-align: center;
-    margin: 20px 0px 20px 0px;
+    margin: 80px 0px 80px 0px;
     font-size: 35px;
     line-height: 45px;
+    padding: 0px 15px
 }
 .main-section_skills{
-    padding: 20px 20px 20px 20px;
-    color:white;
-    text-align: center
+    /* padding: 20px 20px 20px 20px; */
+    width: 100%;
+    color:#fff;
+    text-align: center;
+    border-top: 2px solid wheat;
+    border-bottom: 2px solid wheat;
+    
 }
 .skills-about_block{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 10px;
-    margin-top: 50px;
-   
+    margin: 50px 0px 80px 0px;
+    padding: 0px 15px
 }
-.skills-about_css{
-    transition-duration: 600ms;
-    transition-property: color;
+.skills-logo{
+    height: 100px;
+    width: 100px;
 }
-.skills-about_css:hover{
-   color:salmon
+.about-text{
+    padding: 20px 0px;
 }
