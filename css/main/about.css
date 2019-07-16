@@ -20,3 +20,34 @@
     text-align: center;
     padding-right: 50%
 }
+@media(max-width:1280px){
+     .about-me_text{
+         padding-right: 25%;
+     }
+}
+@media(max-width:876px){
+    .about-me_text{
+        padding-right: 7,5%
+    }
+    .my-photo_size{
+        padding-right: 35px;
+        width: 275px;
+        height: 275px;
+    }
+
+}
+@media(max-width:768px){
+    .about-me{
+        grid-template-columns: auto;
+        justify-items: center;
+        margin-top: 50px;
+        font-size: 25px;
+        line-height: 30px
+    }
+    .my-photo_size{
+        padding-right: 0px;
+    }
+    .about-me_text{
+        padding-right: 0%
+    }
+}
