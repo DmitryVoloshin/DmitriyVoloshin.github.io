@@ -9,10 +9,14 @@
     line-height: 45px;
 }
 .my-photo_size{
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     float: right;
     padding-right: 150px;
 }
 .about-photo_block{
+}
+.about-me_text{
+    text-align: center;
+    padding-right: 50%
 }
