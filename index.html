@@ -147,8 +147,26 @@
         <!-- Portfolio section end-->
         <!-- Contacts section start-->
         <section class="contacts">
-            <form action="" class="contacts-form">
-
+            <button class="open-modal_button" href="#">
+                Send me message
+            </button>
+            <p class="after-modal_message"></p>
+            
+            <div class="modal" id="modal">
+                <div class="modal-container">
+                    <div class="modal-form">
+                        <button class="modal-close">&times;</button>
+                        <div class="form">
+                            <form action="#">
+                                <input type="text" placeholder="your name">
+                                <input type="text" placeholder="your number">
+                                <input type="text" placeholder="your message">
+                                <button type="submit">Send</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
             </form>
         </section>
         <!-- Contacts section end-->
