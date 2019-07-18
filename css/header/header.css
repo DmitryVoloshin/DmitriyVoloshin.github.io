@@ -31,3 +31,47 @@
 .head-socials_icons:first-child{
     padding-left: 0px;
 }
+
+@media(max-width:1280px){
+    .short-info_name{
+      font-size: 60px;
+      line-height: 65px;
+    }
+    .type{
+      font-size: 40px;
+      line-height: 45px;
+    }
+}
+@media(max-width:980px){
+    .short-info_name{
+     font-size: 45px;
+     line-height: 50px;
+    }
+    .type{
+     font-size: 35px;
+     line-height: 40px;
+    }
+}
+@media(max-width:650px){
+    .short-info_block{
+        padding-bottom: 12%;
+    }
+    .short-info_name{
+        font-size: 35px;
+        line-height: 40px;
+        padding-bottom: 15px;
+    }
+    .type{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .short-info_icons{
+        padding: 20px 10px 10px 10px
+    }
+}
+@media(max-width:550){
+    .short-info_name{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}

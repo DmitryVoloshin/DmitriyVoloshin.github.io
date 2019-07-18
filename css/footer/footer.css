@@ -18,6 +18,10 @@
     fill: #fff;
     padding-left: 25%;
 }
+.footer-home_icon:hover{
+    fill: rgb(39, 58, 121);
+    transition: all 0.4s;
+}
 .location-icon{
     width: 25px;
     height: 25px;
