@@ -1,0 +1,12 @@
+.footer-wrap{
+    height: 78px;
+    background-color: rgba(24, 48, 71, 0.753);
+    border-top: 1px solid #ffffff;
+    color: #fff;
+}
+.footer-container_contant{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 40px;
+    padding: 25px 0px;
+}
