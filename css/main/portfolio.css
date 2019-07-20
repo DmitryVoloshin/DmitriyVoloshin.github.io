@@ -12,7 +12,7 @@
 }
 .portfolio-item {
     position: relative;
-    height: 33.3333334%;
+    height: 33%;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     background-size: cover;
     background-position: center;
@@ -76,4 +76,8 @@
 }
 .third-portfolio_item {
     background-image: url('../../img/bgimg/niker.png');
+}
+
+@media(max-width:550px){
+  
 }
