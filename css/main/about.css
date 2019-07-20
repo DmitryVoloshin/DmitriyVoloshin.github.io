@@ -13,6 +13,7 @@
     height: 350px;
     float: right;
     padding-right: 150px;
+    position: relative;
 }
 .about-photo_block{
 }
