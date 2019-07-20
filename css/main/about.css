@@ -41,7 +41,7 @@
 }
 @media(max-width:768px){
     .about-me{
-        grid-template-rows: auto;
+        /* grid-template-column: auto; */
         justify-items: center;
         margin-top: 50px;
         font-size: 25px;
