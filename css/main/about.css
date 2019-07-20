@@ -24,6 +24,9 @@
      .about-me_text{
          padding-right: 25%;
      }
+     .about-me{
+        padding-bottom: 30px;
+     }
 }
 @media(max-width:876px){
     .about-me_text{
@@ -55,6 +58,7 @@
     .about-me{
         padding-bottom: 15px;
         font-size: 15px;
-        line-height: 20px
+        line-height: 20px;
+        margin-bottom: 50px;
     }
 }
