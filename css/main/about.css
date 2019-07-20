@@ -13,7 +13,7 @@
     height: 350px;
     float: right;
     padding-right: 150px;
-    position: relative;
+    /* position: absolute; */
 }
 .about-photo_block{
 }
@@ -46,7 +46,8 @@
         justify-items: center;
         margin-top: 50px;
         font-size: 25px;
-        line-height: 30px
+        line-height: 30px;
+        grid-gap: 50px
     }
     .my-photo_size{
         width: 225px;
