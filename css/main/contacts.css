@@ -93,6 +93,8 @@
 .after-modal_message{
     color: #fff;
     padding-bottom: 40px;
+    font-size: 50px;
+    line-height: 55px;
 }
 /* icons CSS*/
 .icon { 
@@ -112,4 +114,10 @@
 }
 .contacts-socials_items{
       text-align: center;
+}
+@media(max-width:550px){
+    .after-modal_message{
+       font-size: 15px;
+       line-height: 20px;
+    }
 }
