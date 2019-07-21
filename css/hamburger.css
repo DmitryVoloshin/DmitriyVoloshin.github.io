@@ -91,7 +91,7 @@
   background-color: none;
 }
 .navbar-hamburger_pulldown .pulldown-toggle_round:hover {
-  background-color: grey;
+  background-color: rgba(233, 216, 216, 0.158);
   transition: all 200ms;
 }
 .navbar-hamburger_pulldown .hamburger-pulldown_menu{
@@ -138,6 +138,38 @@
 }
 
 /* Medias*/
+@media(max-width:650px){
+  /*  TINY HAMBURGER */
+  .pulldown-toggle_round .navbar-hamburger_lines{
+    top: 18px; 
+    left: 8px;
+    width: 20px;
+    height: 2px;
+  }
+   .pulldown-toggle_round .navbar-hamburger_lines::before{
+    top: -6px;
+    width: 20px;
+    height: 2px;
+  }
+   .pulldown-toggle_round .navbar-hamburger_lines::after{
+    top: 6px;  
+    width: 20px;
+    height: 2px;
+  }
+  .navbar-hamburger_pulldown .pulldown-toggle_round{
+    height: 38px;  
+    width: 38px;
+  }
+  .navbar-hamburger_pulldown .hamburger-pulldown_menu{
+    top: 46px;
+    left: 2px;
+  }
+  .hamburger-pulldown_menu ul li a{
+    font-size: 12px;
+    height: 35px;
+    padding: 0 4px;
+  }
+}
 @media (max-width: 550px) {
   .navbar-hamburger_pulldown .hamburger-pulldown_menu{
     position: fixed;  
@@ -146,9 +178,10 @@
     right: 0px!important;
     bottom: 0px!important;   
     width: 100%;
-    background-color: rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, 0.144);
     box-shadow: none;
     border-radius: 0;
+    /* text-align: center; */
   }
   .hamburger-pulldown_toggle.open + .hamburger-pulldown_menu{
     -webkit-animation-name: openPullDownMobile;
@@ -165,38 +198,21 @@
     padding: 0 10px;
     line-height: 60px;
     cursor: pointer;
-    color: rgb(51, 48, 48);
+    color: rgba(255, 255, 255, 0.973);
     text-decoration: none;
   }
   .navbar-hamburger_pulldown .hamburger-pulldown_menu li{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.247);
     margin-bottom: 1px;
+  }
+   .hamburger-pulldown_menu ul li a{
+  font-size: 18px;
+  height: 50px; 
+  padding: 0 14px;
   }
  
 }
-@media(max-width:650px){
-    /*  TINY HAMBURGER */
-    .pulldown-toggle_round .navbar-hamburger_lines{
-      top: 18px; 
-      left: 8px;
-      width: 20px;
-      height: 2px;
-    }
-     .pulldown-toggle_round .navbar-hamburger_lines::before{
-      top: -6px;
-      width: 20px;
-      height: 2px;
-    }
-     .pulldown-toggle_round .navbar-hamburger_lines::after{
-      top: 6px;  
-      width: 20px;
-      height: 2px;
-    }
-    .navbar-hamburger_pulldown .pulldown-toggle_round{
-      height: 38px;  
-      width: 38px;
-    }
-}
+
 
 /* Grow from origin */
 @-webkit-keyframes openPullDown {
