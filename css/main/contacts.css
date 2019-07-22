@@ -155,3 +155,9 @@
         width: 40px;
     }
 }
+@media(max-width:360px){
+    .after-modal_message{
+        font-size: 15px;
+        line-height: 18px;
+    }
+}

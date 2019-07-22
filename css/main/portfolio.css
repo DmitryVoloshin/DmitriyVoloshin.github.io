@@ -91,3 +91,8 @@
       font-size: 75px  
   }
 }
+@media(max-width:360px){
+    .portfolio-main_title{
+        font-size: 25px;
+    }
+}
