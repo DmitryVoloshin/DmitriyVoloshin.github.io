@@ -15,6 +15,7 @@
     line-height: 90px;
     /* text-align: center; */
     font-weight: normal;
+    white-space: nowrap;
 }
 .type{
     font-size: 60px;
@@ -31,6 +32,7 @@
 .head-socials_icons:first-child{
     padding-left: 0px;
 }
+
 
 @media(max-width:1280px){
     .short-info_name{
@@ -69,9 +71,18 @@
         padding: 20px 10px 10px 10px
     }
 }
-@media(max-width:550){
+@media(max-width:550px){
     .short-info_name{
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .type{
         font-size: 20px;
         line-height: 25px;
+    }
+}
+@media(max-width:360px){
+    .short-info_name{
+        padding-top: 50px
     }
 }

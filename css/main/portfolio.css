@@ -30,11 +30,8 @@
 }
 .portfolio-item_about{
     font-size: 18px;
-    left: 30px;
     color: #fff;
-    padding-left: 40px;
-    padding-right: 70%;
-    padding-top: 15px;
+    padding: 15px 70% 10px 40px;
     display: flex;
     justify-content: flex-end
 }
@@ -52,7 +49,7 @@
     top: 50%;
     right: 100px;
     transform: translateY(-50%);
-    margin: 0;
+    margin: 0 ;
     font-size: 40px;
     text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
     transition: all 0.28s;
@@ -79,5 +76,18 @@
 }
 
 @media(max-width:550px){
-  
+  .portfolio-link_more{
+      
+  }
+  .portfolio-item_about{
+      padding-left: 25px;
+      padding-right: 50%
+  }
+  .portfolio-item .portfolio-title{
+      top: 75%;
+  }
+  .portfolio .portfolio-item:hover .portfolio-title {
+      right: 55px;
+      font-size: 75px  
+  }
 }
