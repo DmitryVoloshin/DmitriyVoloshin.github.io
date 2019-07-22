@@ -180,7 +180,7 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.144);
     box-shadow: none;
-    border-radius: 0;
+    border-radius: 5px;
     /* text-align: center; */
   }
   .hamburger-pulldown_toggle.open + .hamburger-pulldown_menu{

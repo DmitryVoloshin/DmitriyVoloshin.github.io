@@ -1,9 +1,9 @@
 
         let typed = new Typed(".type", {
-            strings: [
-                "In Ctrl + S we Trust", 
-                "Landing Page",
-                "Photoshop"
+            strings: [ 
+                "Landing Page.",
+                "Adaptive design.",
+                "Photoshop.",
               ],
             typeSpeed: 70,
             backSpeed: 90,

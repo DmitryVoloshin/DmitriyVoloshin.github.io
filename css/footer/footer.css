@@ -4,13 +4,14 @@
     border-top: 1px solid #ffffff;
     color: #fff;
     margin-top: 50px;
+
 }
 .footer-container_contant{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap: 20px;
     padding-top: 25px;
-    padding-bottom: 15px;
+    /* padding-bottom: 15px; */
 }
 .footer-home_icon{
     width: 35px;
