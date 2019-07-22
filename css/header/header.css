@@ -20,7 +20,7 @@
 .type{
     font-size: 60px;
     line-height: 70px;
-    color: aqua;
+    color: rgba(107, 182, 243, 0.795);
     padding-top: 40px
 }
 .short-info_icons{
